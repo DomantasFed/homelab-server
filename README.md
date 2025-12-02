@@ -4,14 +4,14 @@ SFF Proxmox server environment for multi-VM labs, Linux development, and cyberse
 This repository will document the build, configuration, and ongoing development of my personal homelab environment. The goal is to create a environment to learn linux, virtualization, network engineering, automation, cybersecurity, and system administration through a lab setup that mimicks real-world scenarios.
 
 **HARDWARE**
-CPU: Ryzen 7 5700G
-RAM: 32GB DDR4 (planned future upgrade to 64GB)
-GPU: GTX 1070 (will be used for GPU passthrough)
-MOBO: ASRock B550 ITX 
-CASE: NR200P V2 
-PSU: Cooler Master V850 SFX
-CPU COOL: ID-Cooling IS-67-XT low-profile
-SSD: 2TB NVMe SSD (potential upgrade to 4 tb with SATA ssd)
+- CPU: Ryzen 7 5700G
+- RAM: 32GB DDR4 (planned future upgrade to 64GB)
+-GPU: GTX 1070 (will be used for GPU passthrough)
+- MOBO: ASRock B550 ITX 
+- CASE: NR200P V2 
+- PSU: Cooler Master V850 SFX
+- CPU COOL: ID-Cooling IS-67-XT low-profile
+- SSD: 2TB NVMe SSD (potential upgrade to 4 tb with SATA ssd)
 
 **Note**: This is a mini-ITX build which means these components are quite smaller than typical computer builds. The motherboard and power supply are all built to spec so that they all fit in the more smaller case. The Hardware installation page will contain all of the installation steps for all of the specified parts above.
 
