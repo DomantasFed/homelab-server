@@ -5,7 +5,7 @@ This repository will document the build, configuration, and ongoing development 
 
 ***
 
-**HARDWARE**
+🖥️ **HARDWARE**
 - CPU: Ryzen 7 5700G
 - RAM: 32GB DDR4 (planned future upgrade to 64GB)
 -GPU: GTX 1070 (will be used for GPU passthrough)
@@ -19,7 +19,7 @@ This repository will document the build, configuration, and ongoing development 
 
 *** 
 
-**GOALS**
+🎯 **GOALS**
 1. Learn Linux inside out
 2. Utilize tailscale to connect devices for collaboration
 3. Create network automation tools
@@ -33,7 +33,7 @@ This repository will document the build, configuration, and ongoing development 
 
 ***
 
-**TECHNOLOGIES**
+⚙️ **TECHNOLOGIES**
 - Proxmox VE
 - Ubuntu Server
 - Docker & Containerization
