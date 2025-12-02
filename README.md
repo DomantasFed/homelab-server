@@ -8,7 +8,7 @@ This repository will document the build, configuration, and ongoing development 
 🖥️ **HARDWARE**
 - CPU: Ryzen 7 5700G
 - RAM: 32GB DDR4 (planned future upgrade to 64GB)
--GPU: GTX 1070 (will be used for GPU passthrough)
+- GPU: GTX 1070 (will be used for GPU passthrough)
 - MOBO: ASRock B550 ITX 
 - CASE: NR200P V2 
 - PSU: Cooler Master V850 SFX
