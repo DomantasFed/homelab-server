@@ -3,6 +3,8 @@ SFF Proxmox server environment for multi-VM labs, Linux development, and cyberse
 
 This repository will document the build, configuration, and ongoing development of my personal homelab environment. The goal is to create a environment to learn linux, virtualization, network engineering, automation, cybersecurity, and system administration through a lab setup that mimicks real-world scenarios.
 
+***
+
 **HARDWARE**
 - CPU: Ryzen 7 5700G
 - RAM: 32GB DDR4 (planned future upgrade to 64GB)
@@ -15,6 +17,7 @@ This repository will document the build, configuration, and ongoing development 
 
 **Note**: This is a mini-ITX build which means these components are quite smaller than typical computer builds. The motherboard and power supply are all built to spec so that they all fit in the more smaller case. The Hardware installation page will contain all of the installation steps for all of the specified parts above.
 
+*** 
 
 **GOALS**
 1. Learn Linux inside out
@@ -28,6 +31,7 @@ This repository will document the build, configuration, and ongoing development 
 
 **Note**: This build will be used as a learning and experimentation environmet. I will setup Proxmox as the main native OS and run VMs for different purposes as listed above. Tailscale VPN will allow proxmox and the VMs to reside in the same tailnet. This will allow for collaborators to ssh easily and experiment on the server themselves. The goals themselves could evolve over time as interests deviate as time goes. Though, the core goals will be implemented on the setup.
 
+***
 
 **TECHNOLOGIES**
 - Proxmox VE
