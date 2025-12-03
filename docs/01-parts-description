@@ -1,0 +1,126 @@
+# 🧩 ServBox — Hardware Parts Description
+
+This document details each hardware component used in the ServBox mini-ITX Proxmox homelab server, including its purpose, compatibility notes, and reasons for selection.
+
+---
+
+## 🧠 CPU — AMD Ryzen 7 5700G
+**Cores:** 8  
+**Threads:** 16  
+**Base Clock:** 3.8 GHz  
+**Boost Clock:** 4.6 GHz  
+**Graphics:** Integrated Radeon Vega (useful before GPU installation)
+
+### Why it was chosen
+- Strong multi-core performance for virtualization  
+- Integrated GPU allows headless setup without a dedicated GPU  
+- Low power usage for a home server  
+- AM4 platform compatibility with ITX motherboards  
+
+---
+
+## 🧵 RAM — 32GB DDR4 (2×16GB)
+**Speed:** 3000–3200 MHz  
+**Type:** DDR4  
+**Future Upgrades:** Expandable to 64GB
+
+### Why it was chosen
+- 32GB allows running 6–10 VMs comfortably  
+- Dual-channel improves overall VM performance  
+- Affordable and upgradeable later  
+
+---
+
+## 🧩 Motherboard — ASRock B550M-ITX/AC
+**Form Factor:** Mini-ITX  
+**Chipset:** AMD B550  
+**Features:**
+- Integrated Wi-Fi & Bluetooth  
+- NVMe M.2 slot  
+- PCIe for dedicated GPU  
+- BIOS supports Ryzen 5000 series  
+
+### Why it was chosen
+- Supports Ryzen 5700G out of the box  
+- ITX size fits the NR200P case  
+- Strong BIOS and virtualization support  
+
+---
+
+## 🧊 CPU Cooler — ID-COOLING IS-67-XT
+**Height:** 67mm (low profile)  
+**Heatpipes:** 6  
+**Fan:** 120mm slim (15mm thick)  
+
+### Why it was chosen
+- Fits perfectly inside the NR200P V2  
+- Low noise & great thermals for SFF  
+- Reliable cooling for 8-core CPU  
+
+---
+
+## 🔌 Power Supply — Cooler Master V850 SFX Gold
+**Wattage:** 850W  
+**Certification:** 80+ Gold  
+**Size:** SFX (Small Form Factor)
+
+### Why it was chosen
+- Needed for NR200P ITX case  
+- Plenty of overhead for future GPU upgrades  
+- High efficiency + quiet operation  
+
+---
+
+## 📦 Case — Cooler Master NR200P V2
+**Form Factor:** Mini-ITX  
+**Features:**
+- Tempered glass or mesh panel  
+- Supports large GPUs  
+- Great airflow for SFF  
+- Clean cable routing options  
+
+### Why it was chosen
+- Widely considered the best small-form-factor case  
+- Excellent airflow for multi-VM workloads  
+- Minimalist aesthetic  
+
+---
+
+## 🎮 GPU — Nvidia GTX 1070 (optional for later)
+**Compute Uses:**
+- GPU passthrough  
+- Hashcat  
+- Machine learning (PyTorch/CUDA)  
+- Computer vision workloads  
+
+### Why it will be added later
+- Gives the server GPU-accelerated compute power  
+- Enables advanced labs (password cracking, ML, CUDA)  
+- Can be used inside VMs via passthrough  
+
+---
+
+## ⚡ Storage — 2TB NVMe SSD
+**Type:** NVMe M.2  
+**Capacity:** 2TB  
+**Future expansion:** Additional SATA SSDs or external storage
+
+### Why it was chosen
+- Fast VM disk performance  
+- Lower power usage  
+- Enough room for many OS images and snapshots  
+
+---
+
+## 📝 Summary
+This hardware configuration is optimized to:
+- run Proxmox efficiently  
+- support multiple VMs for labs  
+- fit into a compact form factor  
+- grow into a more powerful environment over time
+
+As upgrades are made, this file will be updated to reflect changes in the system.
+
+
+
+
